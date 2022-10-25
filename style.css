@@ -1,0 +1,428 @@
+@font-face {
+    font-family: blimey;
+    src: url(BlimeyVariable.ttf);
+}
+
+@font-face {
+    font-family: blimey1;
+    src: url(BlimeyVariable.woff);
+}
+
+@font-face {
+    font-family: blimey2;
+    src: url(BlimeyVariable.woff2);
+}
+
+@font-face {
+    font-family: Antipol;
+    src: url(Antipol\ Font\ Family\ 26\ Font/-20vw);
+}
+
+* {
+    font-family: blimey;
+    font-size: 45px;
+    font-weight: bolder;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+p{
+    font-family: Antipol;
+
+}
+.wrapper {
+    max-width: 1000px;
+    margin: auto;
+}
+
+// div {
+//     margin: 0;
+//     padding: 0;
+//     border: 0;
+//     font-size: 100%;
+//     font-weight: inherit;
+//     font-family: inherit;
+//     font-style: inherit;
+//     vertical-align: baseline;
+// }
+img picture {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+}
+
+.main-navs {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text {
+    display: flex;
+    gap: 1rem;
+}
+
+.bottom-area .crates {
+    width: 40px;
+}
+
+
+.middle-area {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.p-absoult {
+    position: absolute;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.backgorund-pink {
+    background: #ff6444;
+    height: 100vh;
+    padding: 10px;
+}
+
+.sub-area {
+    background-image: url("https://cdn.sanity.io/images/k5uhpzjy/production/adf3d687c8f068816481acba00d9942d01374aa8-3000x2100.jpg?auto=format&q=75&url=https://cdn.sanity.io/images/k5uhpzjy/production/adf3d687c8f068816481acba00d9942d01374aa8-3000x2100.jpg&w=2400");
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+}
+
+.intro {
+    position: absolute;
+    top: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 450px;
+}
+
+.mayo {
+    position: absolute;
+    top: 6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 280px;
+
+}
+
+.arrow {
+    position: absolute;
+    top: 17.5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    animation: arrowanimation 5s infinite;
+    transition: .3s;
+}
+
+@keyframes arrowanimation {
+    0% {
+        transform: translateY(1px);
+    }
+
+    50% {
+        transform: translateY(10px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.clams {
+    margin-top: 5px;
+    width: 100vh;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.clams p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    line-height: 5px;
+}
+
+.red-wave {
+    overflow: hidden;
+    margin-top: -10vw;
+    position: relative;
+}
+
+.mx-20vw {
+    margin-left: -20vw;
+    margin-right: -20vw;
+}
+
+.w-full {
+    width: 100%;
+}
+
+.bg-image-pack-gradient {
+    background-image: linear-gradient(180deg, #ff6444 39.41%, #f8ece2 87.15%);
+    overflow: hidden;
+    margin-top: -7px;
+}
+
+.px-4 {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.letsgettangy {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-tangy {
+    height: 0;
+    padding-bottom: 16.840456%;
+    overflow: hidden;
+    position: relative;
+    width: 250px;
+    text-align: center;
+    margin: auto;
+}
+
+.paragraph {
+    max-width: 35vw;
+    margin: auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.rich-text p {
+    font-size: 22px;
+    font-family: Antipol;
+    line-height: 32px;
+
+}
+
+.button-miyo {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.button.button-yellow-large {
+    font-size: 40px;
+    line-height: 40px;
+    height: 80px;
+    border-radius: 80px;
+    padding: 23px 60px;
+    box-shadow: inset 0 0 0 3px currentColor, 0 4px 4px rgba(0, 0, 0, .25);
+    background: #ffd778;
+}
+
+.cream-wave {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.pointer-events {
+    margin-top: -1px;
+}
+
+.pointer-events img {
+    width: 100%;
+}
+
+.mayo-speard {
+    width: 29vw;
+    left: -9vw;
+    position: absolute;
+    top: 40vw;
+    z-index: 1;
+}
+
+.full-width {
+    transform: translateX(-90px) translateZ(0px);
+}
+
+.image-speard {
+    position: relative;
+    height: 0;
+    padding-bottom: 118.09744779582367%;
+    overflow: hidden;
+    width: 100%;
+    -ms-transform: rotate(40deg);
+    /* IE 9 */
+    transform: rotate(40deg);
+}
+
+.fixed-bottom {
+    position: fixed;
+    z-index: 20;
+    right: 0;
+    bottom: 0;
+
+}
+
+.transformer {
+    transform: translateX(0%) translateY(0%) translateZ(0px);
+}
+
+.width-160 {
+    width: 175px;
+    height: 175px;
+}
+
+.width-160 a {
+    width: 100%;
+}
+
+.image-overflow {
+    overflow: hidden;
+    position: relative;
+}
+
+.Side-stickers {
+    position: relative;
+}
+
+.side-sticker-blue {
+    position: absolute;
+    z-index: 10;
+    /* left: -243px; */
+    right: 25.9rem;
+    top: -17vw;
+    width: 251px;
+    transform: rotate(-10deg);
+
+}
+
+.side-sticker-blue img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, .25));
+}
+
+.inset-0 {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.text-inner {
+    position: relative;
+    z-index: 1;
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.text-inner h3 {
+    font-size: 40px;
+    line-height: 36px;
+    margin-bottom: 10px;
+    font-family: blimey;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rich-txt {
+    line-height: 22px;
+    font-weight: 800;
+}
+.rich-txt p{
+    font-family: Antipol;
+    font-size: 20px;
+}
+.Notes{
+    position: absolute;
+    right: -30%;
+    top: 10%;
+}
+.full-width{
+    width: 100%;
+}
+.image-overflow{
+    height: 0;
+    padding-bottom: 135;
+    overflow: hidden;
+    position: relative;
+}
+.image-overflow img{
+    position: absolute;
+    top: 0;
+}
+.section-3{
+    margin-top:-600px;
+    overflow: hidden;
+
+}
+.bg-cork{
+    padding-top: 300px;
+    padding-bottom: 20px;
+    background-image: url(https://www.clams.lol/images/bg-cork.jpg);
+    background-size: 150px;
+    background-repeat: repeat;
+}
+.px-container{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.fontcaps span{
+    font-size: 150px;
+}
+.rich-text p{
+    font-size: 36px;
+}
+.pader{
+    margin-bottom: 1rem;
+}
+.products{
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 18px;
+    display: grid;
+}
+.h-full{
+    height: 100%;
+
+}
+.h-full p{
+    font-size: 35px;
+}
+.backgroud-white{
+    background-color: #f8ece2;
+    border-radius: 40px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 16px;
+}
